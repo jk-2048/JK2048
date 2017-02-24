@@ -2,13 +2,17 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #FFF2BE;
+  color: #F6318C;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
   margin: 80px 0; }
+
+
+a:link { color: #F6318C; }
+a:visited { color: #F6318C; }
 
 .heading:after {
   content: "";
@@ -53,7 +57,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #36D1C4;;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -98,7 +102,8 @@ h1.title {
 p {
   margin-top: 0;
   margin-bottom: 10px;
-  line-height: 1.65; }
+  line-height: 1.65;
+color: #F6318C;}
 
 a {
   color: #776e65;
@@ -183,11 +188,11 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #F6318C;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: #FFF2BE;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
@@ -330,28 +335,28 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #f0f url('../img/J01.gif');
+    background: #A0EECC url('../img/J01.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
   .tile.tile-4 .tile-inner {
-    background: #f0f url('../img/k01.gif');
+    background: #A0EECC url('../img/k01.gif');
     background-size: cover;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: #f0f url('../img/J02.gif');
+    background: #A0EECC url('../img/J02.gif');
     background-size: cover;}
   .tile.tile-16 .tile-inner {
-    background: #f0f url('../img/k02.gif');
+    background: #A0EECC url('../img/k02.gif');
     background-size: cover;}
   .tile.tile-32 .tile-inner {
-    background: #f0f url('../img/J03.gif');
+    background: #A0EECC url('../img/J03.gif');
     background-size: cover;}
   .tile.tile-64 .tile-inner {
-    background: #f0f url('../img/k03.gif');
+    background: #A0EECC url('../img/k03.gif');
     background-size: cover;}
   .tile.tile-128 .tile-inner {
-    background: #f0f url('../img/J04.gif');
+    background: #A0EECC url('../img/J04.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
@@ -359,7 +364,7 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    background: #f0f url('../img/k04.gif');
+    background: #A0EECC url('../img/k04.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
@@ -367,7 +372,7 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    background: #f0f url('../img/J05.gif');
+    background: #A0EECC url('../img/J05.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
@@ -375,7 +380,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #f0f url('../img/k05.gif');
+    background: #A0EECC url('../img/k05.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
@@ -383,7 +388,7 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    background: #f0f url('../img/jk.gif');
+    background: #A0EECC url('../img/jk.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
@@ -523,7 +528,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #F6318C;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -753,28 +758,28 @@ hr {
   .tile .tile-inner {
     font-size: 35px; }
   .tile.tile-2 .tile-inner {
-    background: #f0f url('../img/J01.gif');
+    background: #A0EECC url('../img/J01.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
   .tile.tile-4 .tile-inner {
-    background: #f0f url('../img/k01.gif');
+    background: #A0EECC url('../img/k01.gif');
     background-size: cover;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: #f0f url('../img/J02.gif');
+    background: #A0EECC url('../img/J02.gif');
     background-size: cover;}
   .tile.tile-16 .tile-inner {
-    background: #f0f url('../img/k02.gif');
+    background: #A0EECC url('../img/k02.gif');
     background-size: cover;}
   .tile.tile-32 .tile-inner {
-    background: #f0f url('../img/J03.gif');
+    background: #A0EECC url('../img/J03.gif');
     background-size: cover;}
   .tile.tile-64 .tile-inner {
-    background: #f0f url('../img/k03.gif');
+    background: #A0EECC url('../img/k03.gif');
     background-size: cover;}
   .tile.tile-128 .tile-inner {
-    background: #f0f url('../img/J04.gif');
+    background: #A0EECC url('../img/J04.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
@@ -782,7 +787,7 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    background: #f0f url('../img/k04.gif');
+    background: #A0EECC url('../img/k04.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
@@ -790,7 +795,7 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    background: #f0f url('../img/J05.gif');
+    background: #A0EECC url('../img/J05.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
@@ -798,7 +803,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #f0f url('../img/k05.gif');
+    background: #A0EECC url('../img/k05.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
@@ -806,7 +811,7 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    background: #f0f url('../img/jk.gif');
+    background: #A0EECC url('../img/jk.gif');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
