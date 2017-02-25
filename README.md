@@ -5,4 +5,4 @@ Made just for fun.
 
 
 ## License
-JK2048 is licensed under the [MIT license.](https://github.com/laferrera/doge2048/blob/master/LICENSE.txt)
+JK2048 is licensed under the [MIT license.](https://github.com/jk-2048/JK2048/blob/master/LICENSE.txt)
